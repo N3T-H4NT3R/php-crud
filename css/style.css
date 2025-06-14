@@ -1,0 +1,86 @@
+.login-signup-form{
+    background-color: blanchedalmond;
+    width: 40%;
+    aspect-ratio: 16/9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    line-height: 2.2;
+    padding: 2%;
+    clip-path: polygon(3% 8%, 100% 0%, 89% 94%, 0% 100%);
+}
+
+.login-signup-form form{
+    width: 80%;
+}
+
+.user-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-form input{
+    width: 100%;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    color: #000;
+    font-size: 18px;
+}
+
+.user-form input[type="submit"]{
+    padding-left: 0;
+    margin-top: 1.2em;
+    color: #fff;
+    background-color: #097eb4;
+    transition: ease-out .7s;
+}
+
+.user-form input[type="submit"]:hover{
+    background-color: #072e41;
+    cursor: pointer;
+}
+
+.user-form a{
+    margin-top: 1.2em;
+    background-color: #282f3a;
+    height: 28px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.user-form a:hover{
+    background-color: #082e75;
+}
+
+.user-form span a{
+    margin-top: 1.2em;
+    color: #0b72e7;
+    background-color: transparent;
+    height: 28px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.user-form span a:hover{
+    color: #e79f03;
+    background-color: transparent;
+}
+
+.login-signup-form form p{
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: .8px;
+}
